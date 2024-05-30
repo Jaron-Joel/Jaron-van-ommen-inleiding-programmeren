@@ -1,0 +1,71 @@
+body{
+    background-image: url("images/background.jpg");
+}
+body{
+    margin:0 auto;
+}
+h1{
+    font-size: 90px;
+    margin-bottom: -10px;
+}
+h2{
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+#mainKleurKnop, #secundairKleurKnop {
+    display: flex;
+    justify-content: center;
+}
+
+#deFoto img{
+    position: absolute;
+}
+#deFoto{
+    position: relative;
+    min-height: 500px;
+}
+#mainKleurKnop button, #secundairKleurKnop button{
+    cursor: pointer;
+}
+
+.hidden {
+    display:none;
+}
+
+#btnRood1 {
+    background-color: red;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
+#btnBlauw1 {
+    background-color: rgb(0, 146, 254);
+    padding: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
+#btnWit1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
+#btnRood2 {
+    background-color: red;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
+#btnBlauw2 {
+    background-color: rgb(0, 146, 254);
+    padding: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
+#btnWit2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
